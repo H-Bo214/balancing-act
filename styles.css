@@ -1,0 +1,78 @@
+body{
+  background-color: #F5F5F5;
+}
+
+}
+h1{
+  margin-left: 250px;
+  padding-top: 50px;
+  padding-left: 200px;
+  border: solid 2px;
+
+}
+img{
+  width: 40px;
+  display:block;
+  padding-bottom: 40px
+}
+nav{
+  border: solid 2px;
+  float: left;
+  height: 800px;
+  width:90px;
+  padding-left: 0;
+}
+
+.welcome{
+  margin-left: 145px;
+  padding: 40px;
+  border: solid 2px;
+  width: 460px;
+  position: relative;
+
+}
+.acct{
+  display:inline-block;
+  padding-bottom: 0;
+  padding-right: 20px;
+}
+.income, .expenses, .credit{
+border: solid 2px;
+width: 160px;
+margin-left: 50px;
+padding-left: 10px;
+display: inline-block;
+
+
+}
+.expenses{
+  margin-left: 20px;
+}
+.credit{
+  margin-left: 20px;
+}
+.close{
+
+
+}
+header{
+  margin-left: 150px;
+}
+.dashboard{
+  padding-top: 150px;
+}
+.recent{
+  display: inline;
+}
+.oscar{
+
+}
+aside{
+  border: solid 2px;
+  display: inline-block;
+
+
+}
+img .elephant{
+  width: 70px;
+}
