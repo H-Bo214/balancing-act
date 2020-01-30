@@ -1,45 +1,67 @@
 body{
   background-color: #F5F5F5;
-}
+  font-family: 'Biryani', sans-serif;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  color:#363636;
 
 }
+
 h1{
-  margin-left: 250px;
+  margin-left: 140px;
   padding-top: 50px;
-  padding-left: 200px;
+
   border: solid 2px;
 
 }
 img{
   width: 40px;
   display:block;
-  padding-bottom: 40px
+  padding-bottom: 20px;
+}
+.elephant{
+  width: 70px;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 8px;
+
 }
 nav{
-  border: solid 2px;
-  float: left;
-  height: 800px;
+  background-color: white;
+  display: block;
+  height: 1000px;
   width:90px;
   padding-left: 0;
+  position:fixed;
+
 }
 
 .welcome{
-  margin-left: 145px;
+  margin-left: 50px;
   padding: 40px;
   border: solid 2px;
-  width: 460px;
+  width: 485px;
   position: relative;
+  background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  display: inline-block;
+  margin-left: 140px;
 
 }
 .acct{
   display:inline-block;
   padding-bottom: 0;
   padding-right: 20px;
+  padding-top: 10px;
+  padding-left: 0;
+  margin-left: 0;
 }
+
+
 .income, .expenses, .credit{
 border: solid 2px;
 width: 160px;
-margin-left: 50px;
+margin-left: 140px;
 padding-left: 10px;
 display: inline-block;
 
@@ -51,28 +73,58 @@ display: inline-block;
 .credit{
   margin-left: 20px;
 }
-.close{
 
-
-}
 header{
-  margin-left: 150px;
+display: inline;
+
+
 }
 .dashboard{
-  padding-top: 150px;
+  padding-top: 300px;
+
 }
 .recent{
   display: inline;
 }
-.oscar{
 
-}
 aside{
   border: solid 2px;
   display: inline-block;
+  margin-left: 140px;
 
 
 }
-img .elephant{
-  width: 70px;
+.close{
+  width: 10px;
+  display: inline-block;
+  margin-bottom: 30px;
+
+  position: relative;
+
+}
+.manageAccounts{
+  margin-left: 300px;
+  background-color: #1CA3BA;
+  border-radius: 30px;
+  text-transform:uppercase;
+  color: white;
+  padding: 8px;
+}
+.main{
+  width:760px;
+  margin-left: 140px;
+}
+.checkBook{
+  border: solid 2px;
+  width: 555px;
+  padding-left:10px;
+  background-color: white;
+  margin-bottom: 10px;
+}
+img, .checkbook{
+  width:20px;
+}
+.oscar{
+
+
 }
