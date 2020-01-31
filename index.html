@@ -7,39 +7,33 @@
     <link href="https://fonts.googleapis.com/css?family=Biryani&display=swap" rel="stylesheet">
   </head>
   <body>
-
     <nav>
-
-        <img class = "elephant" src="assets/elephant.svg" alt="logo of elephant balancing on ball">
-
-
+      <img class = "elephant" src="assets/elephant.svg" alt="logo of elephant balancing on ball">
       <figure class="dashboard">
         <img src="assets/dashboard.svg" alt="img of clipboard">
         <img src="assets/transactions.svg" alt="img of wallet">
         <img src="assets/profile.svg" alt="img of silhouette of a woman">
       </figure>
-
     </nav>
     <header class="header">
       <h1>Balancing Act</h1>
     </header>
-    <section class="oscar">
+    <section id="oscarClose" class="oscar">
       <h2 class="welcome">Welcome Oscar!</h2>
-              <img class="close" src="assets/close.svg" alt="x icon">
-      </section>
-
-      <section class="income">
-        <p>income</p>
-        <p>$2,119.12</p>
-      </section>
-      <section class="expenses">
-        <p>expenses</p>
-        <p>$420.53</p>
-      </section>
-      <section class="credit">
-        <p>credit score</p>
-        <p>673</p>
-      </section>
+        <a id="x_button"><img class="close" src="assets/close.svg" alt="x icon"></a>
+    </section>
+    <section class="income">
+      <p class="fontSize">income</p>
+      <p class="numbers">$2,119.12</p>
+    </section>
+    <section class="expenses">
+      <p class="fontSize">expenses</p>
+      <p>$420.53</p>
+    </section>
+    <section class="credit">
+      <p class="fontSize">credit score</p>
+      <p>673</p>
+    </section>
 <main class="main">
     <section>
       <h2 class="acct">Accounts</h2>
@@ -48,27 +42,27 @@
     <section class="checkBook">
       <img class="acct" src="assets/checking.svg" alt="img of a bank check">
       <p class="acct">Wells Fargo</p>
-      <p class="acct">Checking</p>
+      <p class="acctType">Checking</p>
     </section>
     <section class="checkBook">
       <img class="acct" src="assets/savings.svg" alt="img of a bank check">
       <p class="acct">Wells Fargo</p>
-      <p class="acct">Savings</p>
+      <p class="acctType">Savings</p>
     </section>
     <section class="checkBook">
       <img class="acct" src="assets/credit-card.svg" alt="img of a bank check">
       <p class="acct">Amazon Credit</p>
-      <p class="acct">Credit Card</p>
+      <p class="acctType2">Credit Card</p>
     </section>
     <section class="checkBook">
       <img class="acct" src="assets/credit-card.svg" alt="img of a bank check">
       <p class="acct">Southwest Credit</p>
-      <p class="acct">Credit Card</p>
+      <p class="acctType3">Credit Card</p>
     </section>
       </main>
     <aside class="">
       <h2 class="recent">Recent Transactions</h2>
-      <button type="button" name="button">New Transactions</button>
+      <button class="newTransactions" type="button" name="button">New Transactions</button>
       <table>
         <thead>
 
@@ -139,6 +133,6 @@
         </tbody>
       </table>
     </aside>
-
+<script src="main.js" charset="utf-8"></script>
   </body>
 </html>
