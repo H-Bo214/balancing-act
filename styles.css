@@ -87,7 +87,7 @@ display: inline;
   padding-top: 245px;
   margin-left: 25px;
 }
-.icons {
+.icons1 {
   width:40px;
   margin-bottom: 20px;
   padding-bottom: 7px;
@@ -96,7 +96,24 @@ display: inline;
   border-color: #1CA3BA;
 
 }
+.icons2 {
+  width:40px;
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  padding-left: 3px;
+  /* border-left: solid;
+  border-color: #1CA3BA; */
 
+}
+.icons3 {
+  width:40px;
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  padding-left: 3px;
+  /* border-left: solid;
+  border-color: #1CA3BA; */
+
+}
 .recent {
   display: inline-block;
   margin-left: 10px;
@@ -105,14 +122,14 @@ display: inline;
 aside {
   display: inline-block;
   margin-left: 60px;
-  width: 500px;
+  /* width: 500px; */
   position: relative;
   margin-right: 166px;
   background-color: white;
   top: -606px;
   left: 721px;
-  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05)
-
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05);
+  padding: 20px;
 }
 #x_button {
   width: 10px;
