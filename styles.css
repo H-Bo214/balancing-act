@@ -1,3 +1,7 @@
+/* *{
+  border: 2px solid;
+} */
+
 body {
   background-color: #F5F5F5;
   font-family: 'Biryani', sans-serif;
@@ -34,11 +38,10 @@ nav {
   margin-left: 50px;
   padding: 30px;
   width: 500px;
-  position: relative;
   background-image: linear-gradient(to right, #8ED1DC, #E3F4F6);
   display: inline-block;
   margin-left: 140px;
-  box-shadow: rgba(0,0,0,0.05)
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05)
 }
 .acct {
   display: inline-block;
@@ -69,6 +72,7 @@ padding-left: 10px;
 display: inline-block;
 height: 90px;
 background-color: white;
+box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05)
 }
 .expenses {
   margin-left: 20px;
@@ -81,12 +85,18 @@ display: inline;
 }
 .dashboard {
   padding-top: 245px;
+  margin-left: 25px;
 }
 .icons {
-  width:32px;
-  margin:-9px;
-  padding-bottom: 32px;
+  width:40px;
+  margin-bottom: 20px;
+  padding-bottom: 7px;
+  padding-left: 3px;
+  border-left: solid;
+  border-color: #1CA3BA;
+
 }
+
 .recent {
   display: inline-block;
   margin-left: 10px;
@@ -95,12 +105,13 @@ display: inline;
 aside {
   display: inline-block;
   margin-left: 60px;
-  float: right;
   width: 500px;
   position: relative;
-  top: -604px;
   margin-right: 166px;
   background-color: white;
+  top: -606px;
+  left: 721px;
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05)
 
 }
 #x_button {
@@ -133,6 +144,7 @@ aside {
   background-color: white;
   margin-bottom: 10px;
   height: 60px;
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05)
 }
 img, .checkbook {
   width: 30px;
@@ -153,6 +165,7 @@ table {
   background-color: white;
   padding: 5px;
   border-collapse: collapse;
+
 }
 th, td {
   font-size: 80%;
@@ -185,9 +198,6 @@ th, td {
   padding-left: 59px;
   margin-left: 0;
 }
-/* #x_button{
-  display: none;
+.summary {
+  position:absolute;
 }
-#oscarClose{
-  display:none;
-} */
