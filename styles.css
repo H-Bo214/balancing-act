@@ -122,7 +122,6 @@ display: inline;
 aside {
   display: inline-block;
   margin-left: 60px;
-  /* width: 500px; */
   position: relative;
   margin-right: 166px;
   background-color: white;
@@ -130,6 +129,9 @@ aside {
   left: 721px;
   box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05);
   padding: 20px;
+
+
+
 }
 #x_button {
   width: 10px;
@@ -218,3 +220,9 @@ th, td {
 .summary {
   position:absolute;
 }
+/* .mainAccts{
+  width: 500px
+} */
+/* .status{
+  width:800px;
+} */

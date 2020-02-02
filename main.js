@@ -15,6 +15,7 @@ clipboard.addEventListener('click',displayDashboard);
 var mainAccts = document.querySelector('.mainAccts')
 var header = document.querySelector('.header')
 var aside = document.querySelector('aside');
+
 function hideDashboard() {
   clipboard.style.borderLeft = 'none';
   wallet.style.borderLeft = 'solid';
@@ -28,8 +29,8 @@ function displayDashboard(){
   clipboard.style.borderLeft = 'solid';
   clipboard.style.borderColor = '#1CA3BA';
   wallet.style.borderLeft = 'none';
-  aside.style.display = 'initial';
-  box.style.display = 'initial';
-  mainAccts.style.display = 'initial';
-  header.style.display = 'initial';
+  aside.style.display = 'inline-block';
+  box.style.display = 'inline-block';
+  mainAccts.style.display = 'inline-block';
+  header.style.display = 'inline';
 }
