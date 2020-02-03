@@ -25,7 +25,6 @@
     <img id="x_button" src="assets/close.svg" alt="x icon">
     </section>
   <section class="mainAccts">
-    <!-- <section class="status"> -->
     <section class="income ">
       <p class="fontSize">income</p>
       <p class="numbers">$2,119.12</p>
@@ -38,7 +37,6 @@
       <p class="fontSize">credit score</p>
       <p>673</p>
     </section>
-    <!-- </section> -->
     <main class="main">
       <section>
         <h2 class="acct">Accounts</h2>
@@ -68,10 +66,8 @@
     </section>
     </main>
     <aside>
-      <!-- <section> -->
       <h2 class="recent">Recent Transactions</h2>
       <button class="newTransactions" type="button" name="button">New Transactions</button>
-      <!-- </section> -->
       <table>
         <thead>
           <tr>
@@ -139,6 +135,136 @@
         </tbody>
       </table>
     </aside>
+    <main hidden>
+    <section class="secondPage">
+      <section class="transactionHeader">
+      <h2 class="transactionsH2">Transactions</h2>
+      <button class="trans all">All</button>
+      <button class="trans inflow">Inflow</button>
+      <button class="trans outflow">Outflow</button>
+      </section>
+    </section>
+    <table class="secondTable">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Payee</th>
+          <th>Inflow</th>
+          <th>Outflow</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Oct 26, 2019</td>
+          <td>Target</td>
+          <td>-</td>
+          <td>$82.35</td>
+          </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>Oct 22, 2019</td>
+          <td>Paycheck</td>
+          <td>$1,319.12</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Oct 21, 2019</td>
+          <td>Trader joe's</td>
+          <td>-</td>
+          <td>$54.92</td>
+        </tr>
+        <tr>
+          <td>Oct 20, 2019</td>
+          <td>Shell</td>
+          <td>-</td>
+          <td>$46.23</td>
+        </tr>
+        <tr>
+          <td>Oct 19, 2019</td>
+          <td>Rent</td>
+          <td>$800.00</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>Oct 19, 2019</td>
+          <td>Hapa Sushi</td>
+          <td>-</td>
+          <td>$13.97</td>
+        </tr>
+        <tr>
+          <td>Oct 18, 2019</td>
+          <td>Pig Train</td>
+          <td>-</td>
+          <td>$4.83</td>
+        </tr>
+        <tr>
+          <td>Oct 18, 2019</td>
+          <td>RTD</td>
+          <td>-</td>
+          <td>$6.00</td>
+        </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+        <tr>
+          <td>Oct 24, 2019</td>
+          <td>Express</td>
+          <td>-</td>
+          <td>$212.24</td>
+        </tr>
+      </tbody>
+    </table>
+    <section class="newTransactionForms">
+      <h2 class="newTransactions2">New Transactions</h2>
+      <label for="typeOfTrans">Type of Transaction</label>
+      <select name="type" id="typeOfTrans">
+        <option value="">expense</option>
+      </select>
+      <label for="typeOfTrans">Category</label>
+      <select name="type" id="typeOfTrans">
+        <option value="">-Select One-</option>
+      </select>
+      <label for="typeOfTrans">Account from</label>
+      <select name="type" id="typeOfTrans">
+        <option value="">-Select One-</option>
+      </select>
+    <form action="">
+      <p>Payee</p>
+        <input type="text" name="Payee" id="">
+      <p>Outflow</p>
+        <input type="text" name="Payee" id="">
+      <p>Category</p>
+        <input type="text" name="Payee" id="">
+    </form>
+    <button>Log Expenses</button>
+    </section>
+    </main>
     <script src="main.js" charset="utf-8"></script>
   </body>
 </html>

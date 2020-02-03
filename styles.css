@@ -94,25 +94,18 @@ display: inline;
   padding-left: 3px;
   border-left: solid;
   border-color: #1CA3BA;
-
 }
 .icons2 {
   width:40px;
   margin-bottom: 20px;
   padding-bottom: 7px;
   padding-left: 3px;
-  /* border-left: solid;
-  border-color: #1CA3BA; */
-
 }
 .icons3 {
   width:40px;
   margin-bottom: 20px;
   padding-bottom: 7px;
   padding-left: 3px;
-  /* border-left: solid;
-  border-color: #1CA3BA; */
-
 }
 .recent {
   display: inline-block;
@@ -129,9 +122,6 @@ aside {
   left: 721px;
   box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05);
   padding: 20px;
-
-
-
 }
 #x_button {
   width: 10px;
@@ -184,7 +174,6 @@ table {
   background-color: white;
   padding: 5px;
   border-collapse: collapse;
-
 }
 th, td {
   font-size: 80%;
@@ -217,12 +206,58 @@ th, td {
   padding-left: 59px;
   margin-left: 0;
 }
-.summary {
+.secondPage {
+  /* border: solid 2px; */
   position:absolute;
 }
-/* .mainAccts{
-  width: 500px
-} */
-/* .status{
-  width:800px;
-} */
+.transactionHeader {
+  display: inline-block;
+  padding: 5px;
+  width: 552px;
+  margin-left: 126px;
+  margin-top: 10px;
+}
+.transactionsH2 {
+  display: inline-block;
+  /* border: solid 2px; */
+  margin-right: 114px;
+}
+.trans {
+  border: 1px solid #1CA3BA;
+  text-transform: uppercase;
+  border-radius: 30px;
+}
+.all {
+  background-color: #1CA3BA;
+  color: white;
+  padding: 6px 34px;
+}
+.inflow {
+  color:#1CA3BA;
+  padding: 7px 22px;
+}
+.outflow {
+  color: #1CA3BA;
+  padding: 7px 19px;
+}
+.newTransactions2{
+  position: relative;
+}
+.secondTable {
+  position: relative;
+  left:150px;
+  top:100px;
+  border-radius: 5px;
+}
+.newTransactionForms {
+  width:500px;
+  height: 650px;
+  display: inline-block;
+  /* border: solid 2px; */
+  position: relative;
+  left: 761px;
+  bottom: 558px;
+  background-color: white;
+  box-shadow:1px 1px 1px 1px rgba(0,0,0,0.05);
+  border-radius: 5px;
+}
